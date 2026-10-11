@@ -1,6 +1,6 @@
 <?php
 
-// Exercício 1
+// Desafio 1
 
 // Você recebeu um array associativo simulando dados vindos de uma API.
 // Alguns funcionários estão inativos e você precisa aplicar regras de negócio em cima dessa lista.
