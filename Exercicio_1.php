@@ -17,15 +17,15 @@
 // Estão ativos (true).
 // Têm salário menor que 4000.
 
-    // $funcionariosFiltrados = [];
+    $funcionariosFiltrados = [];
 
     foreach ($funcionarios as $funcionario) {
         if ($funcionario["ativo"] == true && $funcionario["salario"] < 4000) {
             echo "O " . $funcionario["nome"] . " se encaixa. <br>";
-            // $funcionariosFiltrados[] = $funcionario["nome"];
+            $funcionariosFiltrados[] = $funcionario["nome"];
         }
     }
 
-    // print_r($funcionariosFiltrados);
+    print_r($funcionariosFiltrados);
 
 ?>
