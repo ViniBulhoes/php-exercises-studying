@@ -10,5 +10,6 @@
 // Escreva a instrução SQL (DELETE) para excluir o registro do Roberto da tabela funcionarios.
 // (Lembrete: a regra de ouro do WHERE se aplica aqui mais do que nunca!)
 
+    $sql = "DELETE FROM funcionarios WHERE nome = 'Roberto'"
 
 ?>
